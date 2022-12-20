@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Floristry Web Site</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+        <!--! header section start -->
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo" />
+            </a>
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="flowers.html">Flowers</a>
+                <a href="products.html">Products</a>
+                <a href="review.html">Review</a>
+                <a href="contact.html">Contact</a>
+                <a href="blogs.html">Blogs</a>
+            </nav>
+
+            <div class="buttons">
+                <button id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button id="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="search-form">
+                <input type="text" class="search-input" id="search-box" placeholder="search here">
+                <i class="fas fa-search"></i>
+            </div>
+            
+            <div class="cart-items-container">
+                <div class="cart-item">
+                    <i class="fas fa-times"></i>
+                    <img src="images/flowers-1.png" alt="flowers">
+                    <div class="content">
+                        <h3>cart item 01</h3>
+                        <div class="price">$30.99</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <i class="fas fa-times"></i>
+                    <img src="images/flowers-2.png" alt="flowers">
+                    <div class="content">
+                        <h3>cart item 02</h3>
+                        <div class="price">$50.99</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <i class="fas fa-times"></i>
+                    <img src="images/flowers-3.png" alt="flowers">
+                    <div class="content">
+                        <h3>cart item 03</h3>
+                        <div class="price">$45.99</div>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <i class="fas fa-times"></i>
+                    <img src="images/flowers-4.png" alt="flowers">
+                    <div class="content">
+                        <h3>cart item 04</h3>
+                        <div class="price">$60.99</div>
+                    </div>
+                </div>
+                <a href="#" class="btn">checkout now</a>
+            </div>
+        </header>
+        <!--! header section end -->
+
+        <!--! home section start -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>EXPRESS HOME DELIVERY</h3>
+        <p>Flower your most special and most beautiful days.</p>
+        <a href="#" class="btn">Order Now</a>
+            </div>
+        </section>
+       
+        <!--! home section end -->
+
+        <!--! flowers section start -->
+            <section class="flowers" id="flowers">
+                <h1 class="heading">our <span>flowers</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                    <div class="box-head">
+                        <img src="images/flowers-1.png" alt="flowers">
+                        <span class="flowers-category">Bouquet</span>
+                        <h3>Daisy and Rose Bouquet</h3>
+                        <div class="price">$30.99 <span>56.99</span>
+                        </div>
+                    </div>
+                    <div class="box-bottom">
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <img src="images/flowers-2.png" alt="flowers">
+                            <span class="flowers-category">Terrarium</span>
+                            <h3>Bonsai Garden in Glass Bell</h3>
+                            <div class="price">$50.99 <span>72.99</span>
+                            </div>
+                        </div>
+                        <div class="box-bottom">
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-head">
+                                <img src="images/flowers-3.png" alt="flowers">
+                                <span class="flowers-category">Orchid</span>
+                                <h3>Blue Orchid</h3>
+                                <div class="price">$45.99 <span>78.99</span>
+                                </div>
+                            </div>
+                            <div class="box-bottom">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                            </div>
+                            <div class="box">
+                                <div class="box-head">
+                                    <img src="images/flowers-4.png" alt="flowers">
+                                    <span class="flowers-category">Edible Flower</span>
+                                    <h3>Delicious Box Fruit Basket</h3>
+                                    <div class="price">$60.99 <span>$91.99</span>
+                                    </div>
+                                </div>
+                                <div class="box-bottom">
+                                    <a href="#" class="btn">add to cart</a>
+                                </div>
+                                </div>
+                </div>
+            </section>
+        <!--! flowers section end -->
+
+        <!--! products section start -->
+        <section class="products" id="products">
+            <h1 class="heading">our <span>products</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">Special for you</span>
+                        <a href="#" class="name">Memory Roses</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/flowers-5.png" alt="">
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">$32.99</b>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">Special for you</span>
+                        <a href="#" class="name">Call to Nature</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/flowers-6.png" alt="">
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">$48.00</b>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-head">
+                        <span class="title">Special for you</span>
+                        <a href="#" class="name">White Rose and Lilyum</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/flowers-7.png" alt="">
+                    </div>
+                    <div class="box-bottom">
+                        <div class="info">
+                            <b class="price">$36.00</b>
+                        </div>
+                        <div class="product-btn">
+                            <a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--! products section end -->
+
+        <!--! about section start -->
+        <section class="about" id="about">
+            <h1 class="heading">about <span>us</span></h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/about.png" alt="about">
+                </div>
+                <div class="content">
+                    <h3>Yellow Roses</h3>
+                    <p>Imagine if there was no sun? What would our situation be? What if we didn't have loved ones born into our lives like the sun?</p>
+                    <p> We have a wonderful arrangement proposal prepared for what you want to say you are the sun of my life. This bouquet, called Bird's Lemon, contains specially cut yellow roses.</p>
+                    <p>You can order Bird's Lemon and be the hero of the day when you want to make an unforgettable gesture to those who are born into your life like the sun and connect you to life.</p>
+                    <p>The meaning of yellow rose is always known as happiness and caring, but another meaning is strong friendship expression for close friends. 
+                        If you have a friend that you love and value very much, you can make him happy with the yellow rose. 
+                        Roses are of great importance not only for lovers, but also for friends, and it should be noted that they have different meanings. 
+                        With this special color and this special rose, you can express your feelings that you cannot express more clearly and share the happiness in the best way.</p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+        </section>
+        <!--! about section end -->
+
+        <!--! review section start -->
+        <section class="review" id="review">
+            <h1 class="heading">customer's <span>review</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/quote.png" alt="quote">
+                    <p>The flowers are just as beautiful as their site. 
+                        My whole room is filled with the scent of flowers. You can order with confidence.</p>
+                        <img src="images/avatar1.png" alt="avatar" 
+                        class="user">
+                        <h3>Aycan Aykurt</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                </div>
+                <div class="box">
+                    <img src="images/quote.png" alt="quote">
+                    <p>I ordered flowers for my colleague from this site. They were more vibrant flowers than on the site.
+                        Now my favorite flower is only this address.</p>
+                        <img src="images/avatar2.png" alt="avatar" 
+                        class="user">
+                        <h3>Muhammet Emin</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                </div>
+                <div class="box">
+                    <img src="images/quote.png" alt="quote">
+                    <p>I order my flowers from here all the time. They prepare carefully.The flowers smell so good. I would definitely recommend.</p>
+                        <img src="images/avatar3.png" alt="avatar" 
+                        class="user">
+                        <h3>Pınar Güven</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--! review section end -->
+
+        <!--! contact section start -->
+        <section class="contact" id="contact">
+            <h1 class="heading">contact <span>us</span></h1>
+            <div class="row">
+                <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12164.114347075756!2d26
+                .678970049999997!3d40.34171185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b16c027d0b
+                ff13%3A0x6fe94fd0d6443a98!2sLapseki%2C%2017800%20Lapseki%2F%C3%87anakkale!5e0!3m2!1str!2str!4v167
+                1057770248!5m2!1str!2str" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <form>
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+            </div>
+        </section>
+        <!--! contact section end -->
+
+        <!--! blogs section start -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">our <span>blog</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                    <img src="images/blog1.png" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">What is the meaning of flowers?</a>
+                    <span>by admin / 7st jun, 2021</span>
+                    <p>It is a word that means flower, fragrant plant, colorful and 
+                        fragrant part of the plant or a person whose behavior complies with the rules of society 
+                        and is used in these meanings in our language.</p>
+                        <a href="#" class="btn">read more</a>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="images/blog2.png" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">What Does Lavender Mean?</a>
+                    <span>by admin / 10st octb, 2022</span>
+                    <p>Lavender flowers symbolize magnificence and power.
+                        If couples in love gift purple lavender, its meaning changes as commitment and loyalty.</p>
+                        <a href="#" class="btn">read more</a>
+                </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                    <img src="images/blog3.png" alt="blog">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">What do daisies mean?</a>
+                    <span>by admin / 8st may, 2020</span>
+                    <p>The daisy flower is the most common flower in the world. It can be said that it does not grow on glaciers alone.
+                        The daisy, which has an extremely large family, does not only have pink, white and yellow colors. There are many types.</p>
+                        <a href="#" class="btn">read more</a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <!--! blogs section end -->
+
+        <!--! footer section start -->
+            <section class="footer">
+                <div class="search">
+                    <input type="text"
+                    class="search-input" placeholder="Search">
+                    <button class="btn bnt-primary">search</button>
+                </div>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+                <div class="links">
+                    <a href="#" class="active">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Flowers</a>
+                    <a href="#">Products</a>
+                    <a href="#">Review</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Blogs</a>
+                </div>
+                <div class="credit">
+                    created by <span>Nurten Yıldız</span> | all rigths reserved
+                </div>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Most shopping</th>
+                        <th>Number</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>İstanbul</td>
+                        <td>18.100</td>
+                      </tr>
+                      <tr>
+                        <td>Ankara</td>
+                        <td>15.780</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td>İzmir</td>
+                        <td>11.180</td>
+                      </tr>
+                    </tfoot>
+                  </table>
+            </section>
+        <!--! footer section end -->
+
+        <script src="js/script.js"></script>
+  </body>
+</html>
